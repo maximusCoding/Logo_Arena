@@ -53,6 +53,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A510382E17412796007D3E59 /* images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		A5F332D81741261E000E8B3B = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +90,7 @@
 		A5F332EA1741261E000E8B3B /* LogoArena */ = {
 			isa = PBXGroup;
 			children = (
+				A510382E17412796007D3E59 /* images */,
 				A5F332F31741261E000E8B3B /* AppDelegate.h */,
 				A5F332F41741261E000E8B3B /* AppDelegate.m */,
 				A5F332FC1741261E000E8B3B /* ViewController.h */,
@@ -297,6 +305,7 @@
 				A5F333061741261E000E8B3B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
