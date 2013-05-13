@@ -1,0 +1,304 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5F332E51741261E000E8B3B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F332E41741261E000E8B3B /* UIKit.framework */; };
+		A5F332E71741261E000E8B3B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F332E61741261E000E8B3B /* Foundation.framework */; };
+		A5F332E91741261E000E8B3B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A5F332E81741261E000E8B3B /* CoreGraphics.framework */; };
+		A5F332EF1741261E000E8B3B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A5F332ED1741261E000E8B3B /* InfoPlist.strings */; };
+		A5F332F11741261E000E8B3B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F332F01741261E000E8B3B /* main.m */; };
+		A5F332F51741261E000E8B3B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F332F41741261E000E8B3B /* AppDelegate.m */; };
+		A5F332F71741261E000E8B3B /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F332F61741261E000E8B3B /* Default.png */; };
+		A5F332F91741261E000E8B3B /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F332F81741261E000E8B3B /* Default@2x.png */; };
+		A5F332FB1741261E000E8B3B /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A5F332FA1741261E000E8B3B /* Default-568h@2x.png */; };
+		A5F332FE1741261E000E8B3B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A5F332FD1741261E000E8B3B /* ViewController.m */; };
+		A5F333011741261E000E8B3B /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A5F332FF1741261E000E8B3B /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5F332E11741261E000E8B3B /* LogoArena.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LogoArena.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5F332E41741261E000E8B3B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A5F332E61741261E000E8B3B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A5F332E81741261E000E8B3B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A5F332EC1741261E000E8B3B /* LogoArena-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LogoArena-Info.plist"; sourceTree = "<group>"; };
+		A5F332EE1741261E000E8B3B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A5F332F01741261E000E8B3B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A5F332F21741261E000E8B3B /* LogoArena-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LogoArena-Prefix.pch"; sourceTree = "<group>"; };
+		A5F332F31741261E000E8B3B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A5F332F41741261E000E8B3B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A5F332F61741261E000E8B3B /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A5F332F81741261E000E8B3B /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		A5F332FA1741261E000E8B3B /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		A5F332FC1741261E000E8B3B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A5F332FD1741261E000E8B3B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A5F333001741261E000E8B3B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A5F332DE1741261E000E8B3B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F332E51741261E000E8B3B /* UIKit.framework in Frameworks */,
+				A5F332E71741261E000E8B3B /* Foundation.framework in Frameworks */,
+				A5F332E91741261E000E8B3B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A5F332D81741261E000E8B3B = {
+			isa = PBXGroup;
+			children = (
+				A5F332EA1741261E000E8B3B /* LogoArena */,
+				A5F332E31741261E000E8B3B /* Frameworks */,
+				A5F332E21741261E000E8B3B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A5F332E21741261E000E8B3B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A5F332E11741261E000E8B3B /* LogoArena.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A5F332E31741261E000E8B3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A5F332E41741261E000E8B3B /* UIKit.framework */,
+				A5F332E61741261E000E8B3B /* Foundation.framework */,
+				A5F332E81741261E000E8B3B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A5F332EA1741261E000E8B3B /* LogoArena */ = {
+			isa = PBXGroup;
+			children = (
+				A5F332F31741261E000E8B3B /* AppDelegate.h */,
+				A5F332F41741261E000E8B3B /* AppDelegate.m */,
+				A5F332FC1741261E000E8B3B /* ViewController.h */,
+				A5F332FD1741261E000E8B3B /* ViewController.m */,
+				A5F332FF1741261E000E8B3B /* ViewController.xib */,
+				A5F332EB1741261E000E8B3B /* Supporting Files */,
+			);
+			path = LogoArena;
+			sourceTree = "<group>";
+		};
+		A5F332EB1741261E000E8B3B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A5F332EC1741261E000E8B3B /* LogoArena-Info.plist */,
+				A5F332ED1741261E000E8B3B /* InfoPlist.strings */,
+				A5F332F01741261E000E8B3B /* main.m */,
+				A5F332F21741261E000E8B3B /* LogoArena-Prefix.pch */,
+				A5F332F61741261E000E8B3B /* Default.png */,
+				A5F332F81741261E000E8B3B /* Default@2x.png */,
+				A5F332FA1741261E000E8B3B /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A5F332E01741261E000E8B3B /* LogoArena */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A5F333041741261E000E8B3B /* Build configuration list for PBXNativeTarget "LogoArena" */;
+			buildPhases = (
+				A5F332DD1741261E000E8B3B /* Sources */,
+				A5F332DE1741261E000E8B3B /* Frameworks */,
+				A5F332DF1741261E000E8B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LogoArena;
+			productName = LogoArena;
+			productReference = A5F332E11741261E000E8B3B /* LogoArena.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A5F332D91741261E000E8B3B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = A5F332DC1741261E000E8B3B /* Build configuration list for PBXProject "LogoArena" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A5F332D81741261E000E8B3B;
+			productRefGroup = A5F332E21741261E000E8B3B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A5F332E01741261E000E8B3B /* LogoArena */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A5F332DF1741261E000E8B3B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F332EF1741261E000E8B3B /* InfoPlist.strings in Resources */,
+				A5F332F71741261E000E8B3B /* Default.png in Resources */,
+				A5F332F91741261E000E8B3B /* Default@2x.png in Resources */,
+				A5F332FB1741261E000E8B3B /* Default-568h@2x.png in Resources */,
+				A5F333011741261E000E8B3B /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A5F332DD1741261E000E8B3B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5F332F11741261E000E8B3B /* main.m in Sources */,
+				A5F332F51741261E000E8B3B /* AppDelegate.m in Sources */,
+				A5F332FE1741261E000E8B3B /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A5F332ED1741261E000E8B3B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F332EE1741261E000E8B3B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A5F332FF1741261E000E8B3B /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A5F333001741261E000E8B3B /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A5F333021741261E000E8B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A5F333031741261E000E8B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A5F333051741261E000E8B3B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogoArena/LogoArena-Prefix.pch";
+				INFOPLIST_FILE = "LogoArena/LogoArena-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A5F333061741261E000E8B3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LogoArena/LogoArena-Prefix.pch";
+				INFOPLIST_FILE = "LogoArena/LogoArena-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A5F332DC1741261E000E8B3B /* Build configuration list for PBXProject "LogoArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F333021741261E000E8B3B /* Debug */,
+				A5F333031741261E000E8B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A5F333041741261E000E8B3B /* Build configuration list for PBXNativeTarget "LogoArena" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A5F333051741261E000E8B3B /* Debug */,
+				A5F333061741261E000E8B3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A5F332D91741261E000E8B3B /* Project object */;
+}
